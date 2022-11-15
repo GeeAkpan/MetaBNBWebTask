@@ -1,0 +1,50 @@
+.metanft{
+    padding: 58px 100px;
+}
+
+.metanft h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.nft-marketplace{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 43px;
+}
+
+.marketplaceinfo{
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.marketplaceimg{
+    width: 260px !important;
+    height: 265px !important;
+}
+/* 
+.firstline{
+    margin-top: 16px;
+}
+
+.secondline{
+    margin-top: 10px;
+} */
+
+.firstline, .secondline{
+    display: flex;
+    justify-content: space-between;
+    color: #434343;
+}
+
+.firstline .left, 
+.secondline .left{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+}
