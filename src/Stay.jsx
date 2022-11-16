@@ -16,4 +16,4 @@ const PlaceToStay = () => {
   )
 }
 
-export default PlaceToStay
+export default PlaceToStay;

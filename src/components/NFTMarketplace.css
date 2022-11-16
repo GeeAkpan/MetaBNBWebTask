@@ -1,0 +1,40 @@
+.metabnb__nft-marketplace{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 43px;
+}
+
+.metabnb__nft-marketplace-info{
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-img{
+    width: 260px !important;
+    height: 265px !important;
+}
+
+
+.firstline{
+    margin-top: 16px;
+}
+
+.secondline{
+    margin-top: 10px;
+}
+
+.firstline, .secondline{
+    display: flex;
+    justify-content: space-between;
+    color: #434343;
+}
+
+.firstline .left, 
+.secondline .left{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+}

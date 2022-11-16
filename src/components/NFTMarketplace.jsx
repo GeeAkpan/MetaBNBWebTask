@@ -13,7 +13,7 @@ const PtsNft = () => {
 
             return (
               <div key={idx} className="metabnb__nft-marketplace-info">
-                <img src={img} alt="" />
+                <img src={img} className="info-img" alt="" />
 
                 <div className="firstLine">
                   <span className="left">{firstline.left}</span>
